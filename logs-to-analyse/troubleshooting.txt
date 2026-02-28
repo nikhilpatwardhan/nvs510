@@ -175,3 +175,6 @@ crw-rw----. 1 root video 226,   0 Feb 27 10:54 card0
 crw-rw----. 1 root video 226,   1 Feb 27 10:54 card1
 crw-------. 1 root video 226,  64 Feb 27 10:54 controlD64
 crw-rw----. 1 root video 226, 128 Feb 27 10:54 renderD128
+
+[ 2517.702079] NVRM: RmInitAdapter failed! (0x23:0x56:470)
+[ 2517.702871] NVRM: rm_init_adapter failed for device bearing minor number 0
