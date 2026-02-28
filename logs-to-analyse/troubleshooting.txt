@@ -124,3 +124,54 @@ MODALIAS=pci:v000010DEd00000FFDsv000010DEsd00000967bc03sc00i00
 
 [root@localhost ~]# ls -lh /sys/bus/pci/devices/0000\:00\:08.0/driver
 lrwxrwxrwx. 1 root root 0 Feb 27 10:54 /sys/bus/pci/devices/0000:00:08.0/driver -> ../../../bus/pci/drivers/nvidia
+
+[root@localhost ~]# cat /proc/driver/nvidia/gpus/0000\:00\:08.0/information
+Model:           NVS 510
+IRQ:             34
+GPU UUID:        GPU-????????-????-????-????-????????????
+Video BIOS:      ??.??.??.??.??
+Bus Type:        PCIe
+DMA Size:        36 bits
+DMA Mask:        0xfffffffff
+Bus Location:    0000:00:08.0
+Device Minor:    0
+
+[root@localhost ~]# cat /proc/driver/nvidia/params
+Mobile: 4294967295
+ResmanDebugLevel: 4294967295
+RmLogonRC: 1
+ModifyDeviceFiles: 1
+DeviceFileUID: 0
+DeviceFileGID: 0
+DeviceFileMode: 438
+UpdateMemoryTypes: 4294967295
+InitializeSystemMemoryAllocations: 1
+UsePageAttributeTable: 4294967295
+EnableMSI: 1
+MapRegistersEarly: 0
+RegisterForACPIEvents: 1
+CheckPCIConfigSpace: 0
+EnablePCIeGen3: 0
+MemoryPoolSize: 0
+TCEBypassMode: 0
+UseThreadedInterrupts: 1
+EnableStreamMemOPs: 0
+RegistryDwords: ""
+RegistryDwordsPerDevice: ""
+RmMsg: ""
+AssignGpus: ""
+
+[root@localhost ~]# cat /proc/driver/nvidia/version
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  384.98  Thu Oct 26 15:16:01 PDT 2017
+GCC version:  gcc version 5.3.1 20160406 (Red Hat 5.3.1-6) (GCC)
+
+[root@localhost ~]# ls -lh /dev/nvidia*
+crw-rw-rw-. 1 root root 195,   0 Feb 27 19:10 /dev/nvidia0
+crw-rw-rw-. 1 root root 195, 255 Feb 27 19:10 /dev/nvidiactl
+
+[root@localhost ~]# ls -lh /dev/dri/
+total 0
+crw-rw----. 1 root video 226,   0 Feb 27 10:54 card0
+crw-rw----. 1 root video 226,   1 Feb 27 10:54 card1
+crw-------. 1 root video 226,  64 Feb 27 10:54 controlD64
+crw-rw----. 1 root video 226, 128 Feb 27 10:54 renderD128
