@@ -1,0 +1,274 @@
+PS C:\Temp> certutil -store Root
+Root "Trusted Root Certification Authorities"
+================ Certificate 0 ================
+Serial Number: 79ad16a14aa0a5ad4c7358f407132e65
+Issuer: CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com
+ NotBefore: 5/9/2001 4:19 PM
+ NotAfter: 5/9/2021 4:28 PM
+Subject: CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): cdd4eeae6000ac7f40c3802c171e30148030c072
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 1 ================
+Serial Number: 00
+Issuer: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+ NotBefore: 12/31/1996 5:00 PM
+ NotAfter: 12/31/2020 4:59 PM
+Subject: CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): be36a4562fb2ee05dbb3d32323adf445084ed656
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 2 ================
+Serial Number: c1008b3c3c8811d13ef663ecdf40
+Issuer: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.
+ NotBefore: 1/10/1997 12:00 AM
+ NotAfter: 12/31/2020 12:00 AM
+Subject: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): a43489159a520f0d93d032ccaf37e7fe20a8b419
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 3 ================
+Serial Number: 0f6b552f9ebf907b0f6629a9bdf4d8ce
+Issuer: CN=Symantec Enterprise Mobile Root for Microsoft, O=Symantec Corporation, C=US
+ NotBefore: 3/14/2012 5:00 PM
+ NotAfter: 3/14/2032 4:59 PM
+Subject: CN=Symantec Enterprise Mobile Root for Microsoft, O=Symantec Corporation, C=US
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 92b46c76e13054e104f230517e6e504d43ab10b5
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 4 ================
+Serial Number: 3f8bc8b5fc9fb29643b569d66c42e144
+Issuer: CN=Microsoft Root Certificate Authority 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ NotBefore: 3/22/2011 3:05 PM
+ NotAfter: 3/22/2036 3:13 PM
+Subject: CN=Microsoft Root Certificate Authority 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 8f43288ad272f3103b6fb1428485ea3014c0bcfe
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 5 ================
+Serial Number: 01
+Issuer: CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US
+ NotBefore: 1/1/1995 1:00 AM
+ NotAfter: 12/31/1999 4:59 PM
+Subject: CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 7f88cd7223f3c813818c994614a89c99fa3b5247
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 6 ================
+Serial Number: 18af7b1e27c71388409baa787d9fb197
+Issuer: CN=lab-CA01-CA, DC=lab, DC=local
+ NotBefore: 7/7/2026 4:01 PM
+ NotAfter: 7/7/2036 4:11 PM
+Subject: CN=lab-CA01-CA, DC=lab, DC=local
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 7ef38a8ade307dbf27711f6ade30be42acd6a652
+No key provider information
+  Provider = Microsoft Software Key Storage Provider
+  Simple container name: lab-CA01-CA
+  Unique container name: 7a15d42e34b296a8d709d1cfe18cfb98_bfd41858-b000-4af1-adc2-8e543f7588b5
+  ERROR: missing key association property: CERT_KEY_IDENTIFIER_PROP_ID
+Signature test passed
+
+================ Certificate 7 ================
+Serial Number: 28cc3a25bfba44ac449a9b586b4339aa
+Issuer: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ NotBefore: 6/23/2010 2:57 PM
+ NotAfter: 6/23/2035 3:04 PM
+Subject: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 3b1efd3a66ea28b16697394703a72ca340a05bd5
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 8 ================
+Serial Number: 153875e1647ed1b047b4efaf41128245
+Issuer: CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ NotBefore: 2/27/2018 1:51 PM
+ NotAfter: 2/27/2043 2:00 PM
+Subject: CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 31f9fc8ba3805986b721ea7295c65b3a44534274
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 9 ================
+Serial Number: 01
+Issuer: OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network
+ NotBefore: 5/13/1997 9:12 AM
+ NotAfter: 12/30/1999 4:59 PM
+Subject: OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 245c97df7514e7cf2df8be72ae957b9e04741e85
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 10 ================
+Serial Number: 4a19d2388c82591ca55d735f155ddca3
+Issuer: OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc., OU=VeriSign Time Stamping Service Root, OU=VeriSign, Inc., O=VeriSign Trust Network
+ NotBefore: 5/11/1997 5:00 PM
+ NotAfter: 1/7/2004 4:59 PM
+Subject: OU=NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc., OU=VeriSign Time Stamping Service Root, OU=VeriSign, Inc., O=VeriSign Trust Network
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 18f7c1fcc3090203fd5baa2f861a754976c8dd25
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 11 ================
+Serial Number: 14982666dc7ccd8f4053677bb999ec85
+Issuer: CN=Microsoft ECC Product Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ NotBefore: 2/27/2018 1:42 PM
+ NotAfter: 2/27/2043 1:50 PM
+Subject: CN=Microsoft ECC Product Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 06f1aa330b927b753a40e68cdf22e34bcbef3352
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 12 ================
+Serial Number: 2fd67a432293329045e953343ee27466
+Issuer: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ NotBefore: 10/22/2014 3:08 PM
+ NotAfter: 10/22/2039 3:15 PM
+Subject: CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 0119e81be9a14cd8e22f40ac118c687ecba3f4d8
+No key provider information
+Cannot find the certificate and private key for decryption.
+CertUtil: -store command completed successfully.
+
+
+
+PS C:\Temp> certutil -ca.cert
+CertUtil: -CA command FAILED: 0x80094004 (-2146877436 CERTSRV_E_PROPERTY_EMPTY)
+CertUtil: The requested property value is empty.
+PS C:\Temp> certutil -store CA
+CA "Intermediate Certification Authorities"
+================ Certificate 0 ================
+Serial Number: 06376c00aa00648a11cfb8d4aa5c35f4
+Issuer: CN=Root Agency
+ NotBefore: 5/28/1996 3:02 PM
+ NotAfter: 12/31/2039 4:59 PM
+Subject: CN=Root Agency
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): fee449ee0e3965a5246f000e87fde2a065fd89d4
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 1 ================
+Serial Number: 46fcebbab4d02f0f926098233f93078f
+Issuer: OU=Class 3 Public Primary Certification Authority, O=VeriSign, Inc., C=US
+ NotBefore: 4/16/1997 5:00 PM
+ NotAfter: 10/24/2016 4:59 PM
+Subject: OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign, OU=VeriSign International Server CA - Class 3, OU=VeriSign, Inc., O=VeriSign Trust Network
+Non-root Certificate
+Cert Hash(sha1): d559a586669b08f46a30a133f8a9ed3d038e2ea8
+No key provider information
+Cannot find the certificate and private key for decryption.
+
+================ Certificate 2 ================
+Serial Number: 18af7b1e27c71388409baa787d9fb197
+Issuer: CN=lab-CA01-CA, DC=lab, DC=local
+ NotBefore: 7/7/2026 4:01 PM
+ NotAfter: 7/7/2036 4:11 PM
+Subject: CN=lab-CA01-CA, DC=lab, DC=local
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 7ef38a8ade307dbf27711f6ade30be42acd6a652
+No key provider information
+  Provider = Microsoft Software Key Storage Provider
+  Simple container name: lab-CA01-CA
+  Unique container name: 7a15d42e34b296a8d709d1cfe18cfb98_bfd41858-b000-4af1-adc2-8e543f7588b5
+  ERROR: missing key association property: CERT_KEY_IDENTIFIER_PROP_ID
+Signature test passed
+
+================ Certificate 3 ================
+Serial Number: 198b11d13f9a8ffe69a0
+Issuer: CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.
+ NotBefore: 10/1/1997 12:00 AM
+ NotAfter: 12/31/2002 12:00 AM
+Subject: CN=Microsoft Windows Hardware Compatibility, OU=Microsoft Corporation, OU=Microsoft Windows Hardware Compatibility Intermediate CA, OU=Copyright (c) 1997 Microsoft Corp.
+Non-root Certificate
+Cert Hash(sha1): 109f1caed645bb78b3ea2b94c0697c740733031c
+No key provider information
+Cannot find the certificate and private key for decryption.
+================ CRL 0 ================
+Issuer: CN=lab-CA01-CA, DC=lab, DC=local
+ ThisUpdate: 7/7/2026 4:01 PM
+ NextUpdate: 7/15/2026 4:21 AM
+CRL Entries: 0
+CA Version: V0.0
+CRL Number: CRL Number=01
+CRL Hash(sha1): d2034f344a20042f7afe970891cd5b27eb2bbfd2
+
+================ CRL 1 ================
+Issuer: OU=VeriSign Commercial Software Publishers CA, O=VeriSign, Inc., L=Internet
+ ThisUpdate: 3/23/2001 5:00 PM
+ NextUpdate: 1/7/2004 4:59 PM
+CRL Entries: 3
+CRL Hash(sha1): a377d1b1c0538833035211f4083d00fecc414dab
+
+================ CRL 2 ================
+Issuer: CN=lab-CA01-CA, DC=lab, DC=local
+ ThisUpdate: 7/7/2026 4:01 PM
+ NextUpdate: 7/9/2026 4:21 AM
+CRL Entries: 0
+CA Version: V0.0
+CRL Number: CRL Number=01
+Delta CRL Indicator: Minimum Base CRL Number=01
+CRL Hash(sha1): 0e1acb159c0c94333115184d68dc20bf2f7c1421
+CertUtil: -store command completed successfully.
+
+
+PS C:\Temp> certutil -store CA 2 lab-root-ca.cer
+CA "Intermediate Certification Authorities"
+================ Certificate 2 ================
+Serial Number: 18af7b1e27c71388409baa787d9fb197
+Issuer: CN=lab-CA01-CA, DC=lab, DC=local
+ NotBefore: 7/7/2026 4:01 PM
+ NotAfter: 7/7/2036 4:11 PM
+Subject: CN=lab-CA01-CA, DC=lab, DC=local
+CA Version: V0.0
+Signature matches Public Key
+Root Certificate: Subject matches Issuer
+Cert Hash(sha1): 7ef38a8ade307dbf27711f6ade30be42acd6a652
+No key provider information
+  Provider = Microsoft Software Key Storage Provider
+  Simple container name: lab-CA01-CA
+  Unique container name: 7a15d42e34b296a8d709d1cfe18cfb98_bfd41858-b000-4af1-adc2-8e543f7588b5
+  ERROR: missing key association property: CERT_KEY_IDENTIFIER_PROP_ID
+Signature test passed
+CertUtil: -store command completed successfully.
