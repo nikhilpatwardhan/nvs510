@@ -1,3 +1,8 @@
+PS C:\Temp> certutil -ca.cert
+CertUtil: -CA command FAILED: 0x80094004 (-2146877436 CERTSRV_E_PROPERTY_EMPTY)
+CertUtil: The requested property value is empty.
+
+
 PS C:\Temp> certutil -store Root
 Root "Trusted Root Certification Authorities"
 ================ Certificate 0 ================
