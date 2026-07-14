@@ -7,3 +7,73 @@ At line:1 char:1
    tion
     + FullyQualifiedErrorId : ActiveDirectoryServer:-2146893821,Microsoft.ActiveDirectory.Management.Commands.NewADSer
    viceAccount
+
+
+PS C:\WINDOWS\system32> Get-KdsRootKey
+
+
+AttributeOfWrongFormat :
+KeyValue               : {162, 33, 32, 26...}
+EffectiveTime          : 7/14/2026 6:07:48 AM
+CreationTime           : 7/14/2026 6:07:48 AM
+IsFormatValid          : True
+DomainController       : CN=DC01,OU=Domain Controllers,DC=lab,DC=local
+ServerConfiguration    : Microsoft.KeyDistributionService.Cmdlets.KdsServerConfiguration
+KeyId                  : 3e8da65b-8a92-e16f-0c53-e07fee959e05
+VersionNumber          : 1
+
+
+
+PS C:\WINDOWS\system32> Test-KdsRootKey -KeyId 3e8da65b-8a92-e16f-0c53-e07fee959e05
+True
+PS C:\WINDOWS\system32> (Get-KdsRootKey).Count
+1
+PS C:\WINDOWS\system32> Get-Date
+
+Tuesday, July 14, 2026 7:14:10 AM
+
+
+PS C:\WINDOWS\system32> Get-ADOrganizationalUnit -Identity "OU=Service Accounts,DC=lab,DC=local"
+
+
+City                     :
+Country                  :
+DistinguishedName        : OU=Service Accounts,DC=lab,DC=local
+LinkedGroupPolicyObjects : {}
+ManagedBy                :
+Name                     : Service Accounts
+ObjectClass              : organizationalUnit
+ObjectGUID               : 41250e2a-0ecd-4b09-9be1-9cab07e62afa
+PostalCode               :
+State                    :
+StreetAddress            :
+
+
+
+PS C:\WINDOWS\system32> Get-ADGroup -Identity 'GG_gMSA_LabWebApp_Hosts'
+
+
+DistinguishedName : CN=GG_gMSA_LabWebApp_Hosts,OU=Groups,DC=lab,DC=local
+GroupCategory     : Security
+GroupScope        : Global
+Name              : GG_gMSA_LabWebApp_Hosts
+ObjectClass       : group
+ObjectGUID        : 3f255246-f3da-431a-b4d7-8fd0bea713c6
+SamAccountName    : GG_gMSA_LabWebApp_Hosts
+SID               : S-1-5-21-1342639249-4172850166-2995464441-1106
+
+
+
+PS C:\WINDOWS\system32> Get-ADGroupMember -Identity 'GG_gMSA_LabWebApp_Hosts'
+
+
+distinguishedName : CN=WEB01,CN=Computers,DC=lab,DC=local
+name              : WEB01
+objectClass       : computer
+objectGUID        : ae40476a-f544-443b-ba5d-8413026424dd
+SamAccountName    : WEB01$
+SID               : S-1-5-21-1342639249-4172850166-2995464441-1105
+
+
+
+PS C:\WINDOWS\system32>
