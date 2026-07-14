@@ -1,0 +1,9 @@
+PS C:\WINDOWS\system32> New-ADServiceAccount -Name 'gmsaLabWebApp' -DNSHostName 'gmsaLabWebApp.lab.local' -PrincipalsAllowedToRetrieveManagedPassword 'GG_gMSA_LabWebApp_Hosts' -ManagedPasswordIntervalInDays 30 -Path 'OU=Service Accounts,DC=lab,DC=local' -Description 'Runs the LabWebApp IIS application pool on WEB01'
+New-ADServiceAccount : Bad Key
+At line:1 char:1
++ New-ADServiceAccount -Name 'gmsaLabWebApp' -DNSHostName 'gmsaLabWebAp ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (CN=gmsaLabWebAp...DC=lab,DC=local:String) [New-ADServiceAccount], ADExcep
+   tion
+    + FullyQualifiedErrorId : ActiveDirectoryServer:-2146893821,Microsoft.ActiveDirectory.Management.Commands.NewADSer
+   viceAccount
