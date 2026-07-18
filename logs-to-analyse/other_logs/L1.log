@@ -77,3 +77,18 @@ SID               : S-1-5-21-1342639249-4172850166-2995464441-1105
 
 
 PS C:\WINDOWS\system32>
+
+
+PS C:\WINDOWS\system32> setspn -Q MSSQLSvc/winserver1.lab.local:1433
+Checking domain DC=lab,DC=local
+CN=WINSERVER1,CN=Computers,DC=lab,DC=local
+        MSSQLSvc/Winserver1.lab.local:1433
+        MSSQLSvc/Winserver1.lab.local
+        WSMAN/Winserver1
+        WSMAN/Winserver1.lab.local
+        TERMSRV/WINSERVER1
+        TERMSRV/Winserver1.lab.local
+        RestrictedKrbHost/WINSERVER1
+        HOST/WINSERVER1
+        RestrictedKrbHost/Winserver1.lab.local
+        HOST/Winserver1.lab.local
